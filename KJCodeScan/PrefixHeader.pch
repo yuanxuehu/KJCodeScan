@@ -1,0 +1,12 @@
+//
+//  PrefixHeader.pch
+//  KJCodeScan
+//
+//  Created by TigerHu on 2024/8/28.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+
+#endif /* PrefixHeader_h */
