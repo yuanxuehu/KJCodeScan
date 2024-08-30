@@ -7,10 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface KJScanResultViewController : UIViewController
 
-@end
+@property (nonatomic, copy) NSString *strScan;
+@property (nonatomic, copy) NSString *strCodeType;
 
-NS_ASSUME_NONNULL_END
+@end

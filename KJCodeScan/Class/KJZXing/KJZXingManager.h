@@ -1,5 +1,5 @@
 //
-//  KJZXingWrapper.h
+//  KJZXingManager.h
 //  KJCodeScan
 //
 //  Created by TigerHu on 2024/8/28.
@@ -11,7 +11,7 @@
 
 #import "ZXBarcodeFormat.h"
 
-@interface KJZXingWrapper : NSObject
+@interface KJZXingManager : NSObject
 
 ///连续扫码，默认NO
 @property (nonatomic, assign) BOOL continuous;

@@ -10,13 +10,22 @@
 		6836E07F2C7F70BA00543D90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E07E2C7F70BA00543D90 /* AppDelegate.m */; };
 		6836E0822C7F70BA00543D90 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E0812C7F70BA00543D90 /* SceneDelegate.m */; };
 		6836E0852C7F70BA00543D90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E0842C7F70BA00543D90 /* ViewController.m */; };
-		6836E0882C7F70BA00543D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6836E0862C7F70BA00543D90 /* Main.storyboard */; };
 		6836E08A2C7F70BC00543D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6836E0892C7F70BC00543D90 /* Assets.xcassets */; };
 		6836E08D2C7F70BC00543D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6836E08B2C7F70BC00543D90 /* LaunchScreen.storyboard */; };
 		6836E0902C7F70BC00543D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E08F2C7F70BC00543D90 /* main.m */; };
 		6836E09A2C7F70BC00543D90 /* KJCodeScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E0992C7F70BC00543D90 /* KJCodeScanTests.m */; };
 		6836E0A42C7F70BC00543D90 /* KJCodeScanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E0A32C7F70BC00543D90 /* KJCodeScanUITests.m */; };
 		6836E0A62C7F70BC00543D90 /* KJCodeScanUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E0A52C7F70BC00543D90 /* KJCodeScanUITestsLaunchTests.m */; };
+		6836E3862C7F779500543D90 /* KJZXingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E3852C7F779500543D90 /* KJZXingManager.m */; };
+		6836E38C2C80AA4F00543D90 /* KJScanZXingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E38B2C80AA4F00543D90 /* KJScanZXingViewController.m */; };
+		6836E38F2C80ACCD00543D90 /* KJScanBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E38E2C80ACCD00543D90 /* KJScanBaseViewController.m */; };
+		6836E3922C80B25E00543D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6836E3902C80B25E00543D90 /* Main.storyboard */; };
+		6836E3952C80B7CD00543D90 /* CodeScan.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6836E3942C80B7CD00543D90 /* CodeScan.bundle */; };
+		6836E3982C80C0EE00543D90 /* KJScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E3972C80C0EE00543D90 /* KJScanResultViewController.m */; };
+		6836E39B2C81779B00543D90 /* KJNativeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E39A2C81779B00543D90 /* KJNativeManager.m */; };
+		6836E39E2C817A4400543D90 /* KJScanNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E39D2C817A4400543D90 /* KJScanNativeViewController.m */; };
+		6836E3A12C817CE100543D90 /* KJScanResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6836E3A02C817CE100543D90 /* KJScanResult.m */; };
+		69E220CF3F48FB38F53E959B /* libPods-KJCodeScan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5649A829AB557904C9C4E121 /* libPods-KJCodeScan.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5649A829AB557904C9C4E121 /* libPods-KJCodeScan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KJCodeScan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		670D6915DC87092EAF404C9F /* Pods-KJCodeScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJCodeScan.release.xcconfig"; path = "Target Support Files/Pods-KJCodeScan/Pods-KJCodeScan.release.xcconfig"; sourceTree = "<group>"; };
 		6836E07A2C7F70BA00543D90 /* KJCodeScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KJCodeScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6836E07D2C7F70BA00543D90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6836E07E2C7F70BA00543D90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,7 +55,6 @@
 		6836E0812C7F70BA00543D90 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		6836E0832C7F70BA00543D90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6836E0842C7F70BA00543D90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6836E0872C7F70BA00543D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6836E0892C7F70BC00543D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6836E08C2C7F70BC00543D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6836E08E2C7F70BC00543D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +64,27 @@
 		6836E09F2C7F70BC00543D90 /* KJCodeScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KJCodeScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6836E0A32C7F70BC00543D90 /* KJCodeScanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJCodeScanUITests.m; sourceTree = "<group>"; };
 		6836E0A52C7F70BC00543D90 /* KJCodeScanUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJCodeScanUITestsLaunchTests.m; sourceTree = "<group>"; };
+		6836E37B2C7F73F300543D90 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		6836E37D2C7F742A00543D90 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		6836E37F2C7F745500543D90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6836E3812C7F75BA00543D90 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6836E3842C7F779500543D90 /* KJZXingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJZXingManager.h; sourceTree = "<group>"; };
+		6836E3852C7F779500543D90 /* KJZXingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJZXingManager.m; sourceTree = "<group>"; };
+		6836E38A2C80AA4F00543D90 /* KJScanZXingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJScanZXingViewController.h; sourceTree = "<group>"; };
+		6836E38B2C80AA4F00543D90 /* KJScanZXingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJScanZXingViewController.m; sourceTree = "<group>"; };
+		6836E38D2C80ACCD00543D90 /* KJScanBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJScanBaseViewController.h; sourceTree = "<group>"; };
+		6836E38E2C80ACCD00543D90 /* KJScanBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJScanBaseViewController.m; sourceTree = "<group>"; };
+		6836E3912C80B25E00543D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6836E3942C80B7CD00543D90 /* CodeScan.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CodeScan.bundle; sourceTree = "<group>"; };
+		6836E3962C80C0EE00543D90 /* KJScanResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJScanResultViewController.h; sourceTree = "<group>"; };
+		6836E3972C80C0EE00543D90 /* KJScanResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJScanResultViewController.m; sourceTree = "<group>"; };
+		6836E3992C81779B00543D90 /* KJNativeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJNativeManager.h; sourceTree = "<group>"; };
+		6836E39A2C81779B00543D90 /* KJNativeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJNativeManager.m; sourceTree = "<group>"; };
+		6836E39C2C817A4400543D90 /* KJScanNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJScanNativeViewController.h; sourceTree = "<group>"; };
+		6836E39D2C817A4400543D90 /* KJScanNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJScanNativeViewController.m; sourceTree = "<group>"; };
+		6836E39F2C817CE100543D90 /* KJScanResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KJScanResult.h; sourceTree = "<group>"; };
+		6836E3A02C817CE100543D90 /* KJScanResult.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJScanResult.m; sourceTree = "<group>"; };
+		DE0258C7C709AEF5CFB75455 /* Pods-KJCodeScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KJCodeScan.debug.xcconfig"; path = "Target Support Files/Pods-KJCodeScan/Pods-KJCodeScan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E220CF3F48FB38F53E959B /* libPods-KJCodeScan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222CC70B7BC7EA898322B978 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE0258C7C709AEF5CFB75455 /* Pods-KJCodeScan.debug.xcconfig */,
+				670D6915DC87092EAF404C9F /* Pods-KJCodeScan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6836E0712C7F70BA00543D90 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +129,8 @@
 				6836E0982C7F70BC00543D90 /* KJCodeScanTests */,
 				6836E0A22C7F70BC00543D90 /* KJCodeScanUITests */,
 				6836E07B2C7F70BA00543D90 /* Products */,
+				6836E37A2C7F73F200543D90 /* Frameworks */,
+				222CC70B7BC7EA898322B978 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +147,21 @@
 		6836E07C2C7F70BA00543D90 /* KJCodeScan */ = {
 			isa = PBXGroup;
 			children = (
+				6836E3932C80B7A500543D90 /* Resources */,
+				6836E0B32C7F72AA00543D90 /* Class */,
+				6836E0B22C7F729D00543D90 /* SDKLib */,
 				6836E07D2C7F70BA00543D90 /* AppDelegate.h */,
 				6836E07E2C7F70BA00543D90 /* AppDelegate.m */,
 				6836E0802C7F70BA00543D90 /* SceneDelegate.h */,
 				6836E0812C7F70BA00543D90 /* SceneDelegate.m */,
 				6836E0832C7F70BA00543D90 /* ViewController.h */,
 				6836E0842C7F70BA00543D90 /* ViewController.m */,
-				6836E0862C7F70BA00543D90 /* Main.storyboard */,
 				6836E0892C7F70BC00543D90 /* Assets.xcassets */,
+				6836E3902C80B25E00543D90 /* Main.storyboard */,
 				6836E08B2C7F70BC00543D90 /* LaunchScreen.storyboard */,
 				6836E08E2C7F70BC00543D90 /* Info.plist */,
 				6836E08F2C7F70BC00543D90 /* main.m */,
+				6836E3812C7F75BA00543D90 /* PrefixHeader.pch */,
 			);
 			path = KJCodeScan;
 			sourceTree = "<group>";
@@ -136,6 +183,69 @@
 			path = KJCodeScanUITests;
 			sourceTree = "<group>";
 		};
+		6836E0B22C7F729D00543D90 /* SDKLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDKLib;
+			sourceTree = "<group>";
+		};
+		6836E0B32C7F72AA00543D90 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6836E3832C7F776600543D90 /* KJNative */,
+				6836E3822C7F774E00543D90 /* KJZXing */,
+				6836E38D2C80ACCD00543D90 /* KJScanBaseViewController.h */,
+				6836E38E2C80ACCD00543D90 /* KJScanBaseViewController.m */,
+				6836E3962C80C0EE00543D90 /* KJScanResultViewController.h */,
+				6836E3972C80C0EE00543D90 /* KJScanResultViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		6836E37A2C7F73F200543D90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6836E37F2C7F745500543D90 /* Foundation.framework */,
+				6836E37D2C7F742A00543D90 /* libz.1.1.3.tbd */,
+				6836E37B2C7F73F300543D90 /* libiconv.2.4.0.tbd */,
+				5649A829AB557904C9C4E121 /* libPods-KJCodeScan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6836E3822C7F774E00543D90 /* KJZXing */ = {
+			isa = PBXGroup;
+			children = (
+				6836E3842C7F779500543D90 /* KJZXingManager.h */,
+				6836E3852C7F779500543D90 /* KJZXingManager.m */,
+				6836E38A2C80AA4F00543D90 /* KJScanZXingViewController.h */,
+				6836E38B2C80AA4F00543D90 /* KJScanZXingViewController.m */,
+			);
+			path = KJZXing;
+			sourceTree = "<group>";
+		};
+		6836E3832C7F776600543D90 /* KJNative */ = {
+			isa = PBXGroup;
+			children = (
+				6836E3992C81779B00543D90 /* KJNativeManager.h */,
+				6836E39A2C81779B00543D90 /* KJNativeManager.m */,
+				6836E39C2C817A4400543D90 /* KJScanNativeViewController.h */,
+				6836E39D2C817A4400543D90 /* KJScanNativeViewController.m */,
+				6836E39F2C817CE100543D90 /* KJScanResult.h */,
+				6836E3A02C817CE100543D90 /* KJScanResult.m */,
+			);
+			path = KJNative;
+			sourceTree = "<group>";
+		};
+		6836E3932C80B7A500543D90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6836E3942C80B7CD00543D90 /* CodeScan.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6836E0A92C7F70BC00543D90 /* Build configuration list for PBXNativeTarget "KJCodeScan" */;
 			buildPhases = (
+				54B7605AE77A6CF99BDCC182 /* [CP] Check Pods Manifest.lock */,
 				6836E0762C7F70BA00543D90 /* Sources */,
 				6836E0772C7F70BA00543D90 /* Frameworks */,
 				6836E0782C7F70BA00543D90 /* Resources */,
@@ -239,9 +350,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6836E3922C80B25E00543D90 /* Main.storyboard in Resources */,
 				6836E08D2C7F70BC00543D90 /* LaunchScreen.storyboard in Resources */,
 				6836E08A2C7F70BC00543D90 /* Assets.xcassets in Resources */,
-				6836E0882C7F70BA00543D90 /* Main.storyboard in Resources */,
+				6836E3952C80B7CD00543D90 /* CodeScan.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,15 +373,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54B7605AE77A6CF99BDCC182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KJCodeScan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6836E0762C7F70BA00543D90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6836E3862C7F779500543D90 /* KJZXingManager.m in Sources */,
+				6836E39E2C817A4400543D90 /* KJScanNativeViewController.m in Sources */,
 				6836E0852C7F70BA00543D90 /* ViewController.m in Sources */,
+				6836E38C2C80AA4F00543D90 /* KJScanZXingViewController.m in Sources */,
+				6836E39B2C81779B00543D90 /* KJNativeManager.m in Sources */,
 				6836E07F2C7F70BA00543D90 /* AppDelegate.m in Sources */,
+				6836E3A12C817CE100543D90 /* KJScanResult.m in Sources */,
 				6836E0902C7F70BC00543D90 /* main.m in Sources */,
+				6836E38F2C80ACCD00543D90 /* KJScanBaseViewController.m in Sources */,
 				6836E0822C7F70BA00543D90 /* SceneDelegate.m in Sources */,
+				6836E3982C80C0EE00543D90 /* KJScanResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,20 +450,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6836E0862C7F70BA00543D90 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6836E0872C7F70BA00543D90 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6836E08B2C7F70BC00543D90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6836E08C2C7F70BC00543D90 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6836E3902C80B25E00543D90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6836E3912C80B25E00543D90 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -437,12 +581,14 @@
 		};
 		6836E0AA2C7F70BC00543D90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0258C7C709AEF5CFB75455 /* Pods-KJCodeScan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GCC_PREFIX_HEADER = /Users/yuanxuehu/XcodeProjects/DemoProjects/KJCodeScan/KJCodeScan/PrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KJCodeScan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,12 +610,14 @@
 		};
 		6836E0AB2C7F70BC00543D90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 670D6915DC87092EAF404C9F /* Pods-KJCodeScan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6T2VWAK6CR;
+				GCC_PREFIX_HEADER = /Users/yuanxuehu/XcodeProjects/DemoProjects/KJCodeScan/KJCodeScan/PrefixHeader.pch;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KJCodeScan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

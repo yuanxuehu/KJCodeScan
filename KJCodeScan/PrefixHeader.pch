@@ -8,5 +8,10 @@
 #ifndef PrefixHeader_h
 #define PrefixHeader_h
 
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+//#import <UIKit/UIKit.h>
+
+#endif
 
 #endif /* PrefixHeader_h */

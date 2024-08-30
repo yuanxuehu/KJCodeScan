@@ -1,16 +1,16 @@
 //
-//  KJZXingWrapper.m
+//  KJZXingManager.m
 //  KJCodeScan
 //
 //  Created by TigerHu on 2024/8/28.
 //
 
-#import "KJZXingWrapper.h"
+#import "KJZXingManager.h"
 #import <ZXingObjC.h>
 #import <ZXingObjC/ZXCapture.h>
 #import <ZXingObjC/ZXCaptureDelegate.h>
 
-@interface KJZXingWrapper() <ZXCaptureDelegate>
+@interface KJZXingManager() <ZXCaptureDelegate>
 
 @property (nonatomic, strong) ZXCapture *capture;
 
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation KJZXingWrapper
+@implementation KJZXingManager
 
 - (id)init {
     if (self = [super init]) {

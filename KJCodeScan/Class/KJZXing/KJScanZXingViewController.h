@@ -6,11 +6,19 @@
 //
 
 #import "KJScanBaseViewController.h"
-
-NS_ASSUME_NONNULL_BEGIN
+#import "KJZXingManager.h"
 
 @interface KJScanZXingViewController : KJScanBaseViewController
 
-@end
+/**
+ ZXing扫码对象
+ */
+@property (nonatomic, strong) KJZXingManager *zxingObj;
 
-NS_ASSUME_NONNULL_END
+
+
+
+
+
+
+@end
